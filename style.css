@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+  @media(max-width:400px){}
+  .container{
+  display: flex;
+  color: #fff;
+ background-color: #5995DA;  /* Blue */
+ padding: 40px 0;
+ border: 8px solid #fff;  /* For debugging */
+ width: 400px;
+ }
+}
+  @media (min-width: 401px){
+  .container{
+  display: flex;
+  color: #fff;
+ background-color: #A52A2A;
+ padding: 40px 0;
+ border: 1px solid #fff;  /* For debugging */
+ width: 1000px;
+}
+
+}
+.t1{
+  width:200px;
+  margin:  10px;
+  border: 3px solid #FF7F50;
+  display:flex;
+}
+.t2{
+  width:200px;
+  margin:  10px;
+  border:  3px solid #FF7F50;
+  display:flex;
+}
+.t3{
+  width:200px;
+  margin:  10px;
+  border: 3px solid #FF7F50;
+  display:flex;
+}
+.t4{
+  width:200px;
+  margin:  10px;
+  border: 3px solid #FF7F50;
+  display:flex;
+}
+.t5{
+  background-color: #FF7F50;
+  display: flex;
+  width: 1000px;
+  margin:10px;
+  border :3px solid #fff;
+}
